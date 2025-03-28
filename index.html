@@ -104,6 +104,8 @@
         </div>
       </div>
     </section>
+
+    <!-- /* ********************** question ************************ */ -->
     <section class="faq_question">
         <div class="container">
             <h3 class="text-center">أسئلتك في بالنا — وهذه إجاباتنا</h2>
@@ -221,6 +223,8 @@
             </div>
         </div>
     </section>
+
+    <!-- *************contact us start*********************** / -->
     <section class="contact_us">
         <div class="container">
             <div class="contact_us_row">
@@ -268,20 +272,16 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
+      // question
       document.addEventListener("DOMContentLoaded", function () {
         const faqHeaders = document.querySelectorAll(".faq_header");
 
         faqHeaders.forEach((header) => {
           header.addEventListener("click", function () {
-            // Toggle the active class on the current header
             const faqItem = this.parentElement;
             const answer = this.nextElementSibling;
             const icon = this.querySelector(".faq_icon");
-
-            // Toggle the answer visibility
             answer.classList.toggle("show");
-
-            // Rotate the arrow icon
             icon.classList.toggle("rotate");
           });
         });

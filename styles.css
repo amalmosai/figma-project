@@ -119,6 +119,7 @@ h1 {
   display: block;
 }
 
+/* *************contact us start*********************** */
 .contact_us {
   margin-top: 90px;
   padding-top: 40px;
@@ -211,6 +212,45 @@ textarea {
 }
 
 /* *********************************************** */
+@media (max-width: 992px) {
+  /* contact us start*/
+  .contact_us {
+    height: 90%;
+    padding-bottom: 40px;
+  }
+  .contact_us_form {
+    padding-top: 30px;
+    width: 100%;
+  }
+
+  .contact_us_gallery {
+    width: 100%;
+  }
+  .contact_us_form h3,
+  .contact_us_form .btn_container {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  /* contact us start*/
+  .contact_us {
+    height: 90%;
+    padding-bottom: 40px;
+  }
+  .contact_us_form {
+    padding-top: 30px;
+    width: 100%;
+  }
+
+  .contact_us_gallery {
+    width: 100%;
+  }
+  .contact_us_form h3,
+  .contact_us_form .btn_container {
+    text-align: center;
+  }
+}
 
 @media (max-width: 576px) {
   .container {
@@ -250,7 +290,7 @@ textarea {
     max-height: 100%;
     max-width: 100%;
   }
-
+  /* ********************** question ************************ */
   .faq_question {
     width: 100%;
     margin: 0 auto;
@@ -276,8 +316,11 @@ textarea {
     font-size: 28px;
     padding-bottom: 28px;
   }
+
+  /* *******************contact us start******************************/
   .contact_us {
-    height: 1000px;
+    height: 85%;
+    padding-bottom: 40px;
   }
   .contact_us_form {
     padding-top: 30px;
